@@ -1,0 +1,122 @@
+@media (min-width: 1024px) {
+    #header .menu-btn{
+        display: none;
+    }
+}
+
+@media (min-width: 741px) and (max-width: 1023px){
+    #header .menu-btn{
+        display: none;
+    }
+
+}
+
+@media (max-width: 740px) {
+    #header .search-button{
+        display: none;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header .menu-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #nav .subnav {
+    background-color:rgb(53, 55, 56);
+    }
+
+    #nav .subnav li{
+        padding-left: 20px;
+    }
+
+
+    #nav .subnav a{
+        color: #fff;
+
+    }
+
+    #nav > li{
+        display: block;
+    }
+
+    #nav{
+        display: block;
+    }
+
+    #nav #homeBtn{
+        display: inline-block;
+    }
+
+    #slider .text-content {
+        display: none;
+    }
+
+    #content .content-section {
+        padding: 64px 8px 64px;
+    }
+
+    #content .member-list {
+        padding-top: 0;
+    }
+
+    #content .member-item {
+        padding-top: 47px;
+        float: initial;
+        width: 100%;
+    }
+
+    #content .member-avt {
+        width: 174px;
+    }
+
+    #tour-section .place-list {
+        float: initial;
+        width: 100%;
+        padding: 0px 8px;
+        margin-bottom: 16px;
+    }
+
+    #tour-section .place-body {
+        padding-bottom: 8px;
+    }
+
+    #tour-section .place-footer {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    #tour-section .buy-button {
+        font-size: 15px;
+        padding: 12px 16px;
+        margin: 16px 0 16px 16px;
+        cursor: pointer;
+    }
+
+    .contact-content {
+        padding: 64px 16px;
+    }
+
+    .contact-content .text-left{
+        width: 100%;
+        padding-top: 32px;
+    }
+
+    .contact-content .contact-form{
+        width: 100%;
+        padding-top: 32px;
+    }
+
+    .contact-content .name-input{
+        width: 100%;
+    }
+
+    .contact-content .email-input{
+        margin-top: 8px;
+        width: 100%;
+    }
+}
